@@ -104,6 +104,12 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0x4300000000000000000000000000000000000004',
     creationBlock: 1116444,
   },
+  // Subspace Nova
+  [490000]: {
+    router: '0xe463635f6e73C1E595554C3ae216472D0fb929a9',
+    weth: '0x6A18e9507d1a578a24e6Ac71885e9810DE84C133',
+    creationBlock: 420043,
+  },
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
